@@ -9,9 +9,13 @@ img {
   vertical-align: bottom;
 }
 
-h1,h2,h3,p {
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }
+
 .wrapper {
   max-width: 600px;
   margin: 0 auto;
@@ -47,18 +51,6 @@ h2 {
   justify-content: space-around;
 }
 
-.skill_html5 {
-  background-color: #e44d26;
-}
-
-.skill_css3 {
-  background-color: #1572b6;
-}
-
-.skill_javascript {
-  background-color: #ebbc00;
-}
-
 .myskills ul li {
   width: 90px;
   height: 90px;
@@ -70,12 +62,24 @@ h2 {
   font-size: 14px;
 }
 
+.myskills ul li.skill_html5 {
+  background-color: #e44d26;
+}
+
+.myskills ul li.skill_css3 {
+  background-color: #1572b6;
+}
+
+.myskills ul li.skill_javascript {
+  background-color: #ebbc00;
+}
+
 .works_box {
   max-width: 450px;
   margin: 40px auto;
 }
 
-.works_image {
+img.works_image {
   width: 100%;
   height: auto;
 }
